@@ -370,3 +370,170 @@ footer {
 .footer__ending {
   text-align: center;
 }
+
+
+
+
+
+
+
+/* Media QueRies */
+@media (max-width: 1210px) {
+  .nav__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .nav__menu {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .main {
+    padding-left: 2rem ;
+    padding-right: 2rem ;
+  }
+
+  .blog-box {
+    padding: 2rem 2rem;
+  }
+
+  .blog-box__item {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .blog-box__item img {
+    width: 40%;
+    max-width: 30rem;
+  }
+
+  .blog-box__text {
+    max-width: 40%;
+  }
+
+  .blog-box__comment {
+    margin-left: 0;
+  }
+
+  .post-item {
+    flex: 0 0 45%;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    gap: 2rem;
+  }
+
+  .footer__main {
+    flex-wrap: wrap;
+  }
+
+  .footer__main__first{
+    flex: 0 0 100%;
+    max-width: 100%;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .footer__pages,
+  .footer__recent,
+  .footer__partners {
+    transform: none;
+    padding: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .nav {
+    padding-bottom: 100px;
+  }
+
+  .nav__container {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .blog-box {
+    padding: 1.5rem 1rem;
+  }
+
+  .blog-box__item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 1.5rem;
+  }
+
+  .blog-box__item img {
+    width: 50vw;
+    max-width: 50vw;
+  }
+
+  .blog-box__separator {
+    display: none;
+  }
+
+  .blog-box__text {
+    max-width: 100%;
+  }
+
+  .blog-box__text button {
+    margin: 0 auto;
+  }
+
+  .post-item {
+    flex: 0 0 100%;
+  }
+
+  .footer__main {
+    gap: 1.5rem;
+  }
+
+  .footer__socials-container {
+    justify-content: center;
+  }
+
+  .footer__partners {
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer__partners img{
+    max-width: 250px;
+  }
+
+  .footer__separator {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .nav {
+    padding-bottom: 100px;
+  }
+
+  .nav__menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .blog-box__heading {
+    align-content: center;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+  }
+
+  .blog-box__heading button {
+    padding: 0.7rem 1.4rem;
+    transform: translate(0);
+    margin: auto;
+  }
+}
