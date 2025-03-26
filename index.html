@@ -1,302 +1,395 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>JTG-POD</title>
-        <link rel="stylesheet" href="style.css" />
-        <script defer src="script.js"></script>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JTG-POD</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
 
-    <body>
-        <div class="wrapper">
-            <!-- Nav Part -->
-            <nav>
-                <div>
-                    <div class="logo">
-                        <img src="/assets/Path 9408@2x.png" alt="" />
-                        <img src="/assets/JTGPOD@2x.png" alt="" />
-                    </div>
+  <body>
+    <div class="wrapper">
+      <!-- Nav Part -->
+      <nav class="nav">
+        <div class="nav__container">
+          <div class="nav__logo">
+            <img src="/assets/Path 9408@2x.png" alt="Logo Image 1" />
+            <img src="/assets/JTGPOD@2x.png" alt="Logo Image 2" />
+          </div>
 
-                    <ul class="nav__menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="#">Contact</a></li>
+          <ul class="nav__menu">
+            <li><a href="#" class="nav__menu-item">Home</a></li>
+            <li><a href="#" class="nav__menu-item">About</a></li>
+            <li><a href="#" class="nav__menu-item">Blog</a></li>
+            <li><a href="#" class="nav__menu-item">Pages</a></li>
+            <li><a href="#" class="nav__menu-item">Contact</a></li>
 
-                        <li>
-                            <button class="btn">Subscribe</button>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-            <!-- Main Part -->
-            <main>
-                <div class="blogBox">
-                    <div class="blogBox__heading">
-                        <h1>Latest Blogs</h1>
-                        <button class="btn">View All</button>
-                    </div>
-
-                    <div class="blogBox__blogContainer">
-                        <div class="blogBox__blogContainer__blog">
-                            <img src="/assets/2123.png" alt="blog picture" />
-
-                            <div class="blogBox__blogContainer__blog__text">
-                                <h2>
-                                    Visiting my best friend's city for first
-                                    time
-                                </h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam,
-                                    sed diam voluptua.
-                                </p>
-                                <button class="btn">View</button>
-                            </div>
-
-                            <div
-                                class="blogBox__blogContainer__blog__line"
-                            ></div>
-
-                            <div
-                                class="blogBox__blogContainer__blog__comment textGraySmall"
-                            >
-                                <p># Season 1</p>
-                                <p># Posted on Sep 3, 2020</p>
-                                <p># audio / goodbyes / life</p>
-                            </div>
-                        </div>
-
-                        <div class="blogBox__blogContainer__blog">
-                            <img
-                                src="/assets/hello-revival-YH_Ne4R9ZAc-unsplash.png"
-                                alt="blog picture"
-                            />
-
-                            <div class="blogBox__blogContainer__blog__text">
-                                <h2>
-                                    An Interesting read I definitely recommend
-                                </h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam,
-                                    sed diam voluptua.
-                                </p>
-                                <button class="btn">View</button>
-                            </div>
-
-                            <div
-                                class="blogBox__blogContainer__blog__line"
-                            ></div>
-
-                            <div
-                                class="blogBox__blogContainer__blog__comment textGraySmall"
-                            >
-                                <p># Season 1</p>
-                                <p># Posted on July 29, 2020</p>
-                                <p># goodbyes / life</p>
-                            </div>
-                        </div>
-
-                        <div class="blogBox__blogContainer__blog">
-                            <img
-                                src="/assets/alexander-tsang-_frvdyMH6S0-unsplash.png"
-                                alt="blog picture"
-                            />
-
-                            <div class="blogBox__blogContainer__blog__text">
-                                <h2>What if all my adventures go back home?</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam,
-                                    sed diam voluptua.
-                                </p>
-                                <button class="btn">View</button>
-                            </div>
-
-                            <div
-                                class="blogBox__blogContainer__blog__line"
-                            ></div>
-
-                            <div
-                                class="blogBox__blogContainer__blog__comment textGraySmall"
-                            >
-                                <p># Season 1</p>
-                                <p># Posted on Sep 11, 2020</p>
-                                <p># audio / goodbyes</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blogBox_btnBox">
-                        <button class="btnInverse blogBox_btn">
-                            Show More Episodes
-                        </button>
-                    </div>
-                </div>
-
-                <div class="blogPostBox">
-                    <h1 class="blogPostBox__heading">Blog Posts</h1>
-
-                    <div class="blogPostBox__blogsPostsContainer">
-                        <div class="blogPostBox__blogsPostsContainer__blogPost">
-                            <div
-                                class="blogPostBox__blogsPostsContainer__blogPost__author"
-                            >
-                                <p>By Mehedi Hasan Sep 11,2020</p>
-                                <p>Cantonese Radio</p>
-                            </div>
-
-                            <div
-                                class="blogPostBox__blogsPostsContainer__blogPost__content"
-                            >
-                                <h2>
-                                    Global News Podcast Thai soldier kills many
-                                    people a shooting rampage
-                                </h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam,
-                                    sed diam voluptua.
-                                </p>
-                                <button class="btnInverse">Read More</button>
-                            </div>
-                        </div>
-
-                        <div class="blogPostBox__blogsPostsContainer__blogPost">
-                            <div
-                                class="blogPostBox__blogsPostsContainer__blogPost__author"
-                            >
-                                <p>By Mehedi Hasan Sep 11,2020</p>
-                                <p>Cantonese Radio</p>
-                            </div>
-
-                            <div
-                                class="blogPostBox__blogsPostsContainer__blogPost__content"
-                            >
-                                <h2>
-                                    News hour - World Health Organization says a
-                                    new coronavirus cases
-                                </h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam,
-                                    sed diam voluptua.
-                                </p>
-                                <button class="btnInverse">Read More</button>
-                            </div>
-                        </div>
-
-                        <div class="blogPostBox__blogsPostsContainer__blogPost">
-                            <div
-                                class="blogPostBox__blogsPostsContainer__blogPost__author"
-                            >
-                                <p>By Mehedi Hasan Sep 11,2020</p>
-                                <p>Cantonese Radio</p>
-                            </div>
-
-                            <div
-                                class="blogPostBox__blogsPostsContainer__blogPost__content"
-                            >
-                                <h2>
-                                    Over to You - Programme face the axe
-                                    substantial finanical cutbacks
-                                </h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam,
-                                    sed diam voluptua.
-                                </p>
-                                <button class="btnInverse">Read More</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-
-            <!-- Footer Part -->
-            <footer>
-                <div class="footer__main">
-                    <div class="footer__main__first">
-                        <div class="logo">
-                            <img src="/assets/Path 9408@2x.png" alt="" />
-                            <img src="/assets/JTGPOD@2x.png" alt="" />
-                        </div>
-
-                        <p class="textGraySmall">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Eligendi dolorem minima excepturi numquam
-                            earum ipsam.
-                        </p>
-
-                        Socials
-
-                        <div class="footer__main__first__socialBox">
-                            <div class="footer__main__first__social">
-                                <img
-                                    src="/assets/facebook.png"
-                                    alt="facebook"
-                                />
-                            </div>
-
-                            <div class="footer__main__first__social">
-                                <img
-                                    src="/assets/instagram.png"
-                                    alt="instagram"
-                                />
-                            </div>
-
-                            <div class="footer__main__first__social">
-                                <img
-                                    src="/assets/linkedin.png"
-                                    alt="linkedin"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        Pages
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Episode</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        Recent Blogs
-                        <ul>
-                            <li><a href="#">Blog 1</a></li>
-                            <li><a href="#">Blog 2</a></li>
-                            <li><a href="#">Blog 3</a></li>
-                            <li><a href="#">Blog 4</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer__main__partner">
-                        Partners
-                        <img src="/assets/apple_podcast@2x.png" alt="Apple" />
-                        <img src="/assets/spotify@2x.png" alt="Spotify" />
-                        <img
-                            src="/assets/google_podcast@2x.png"
-                            alt="Podcast"
-                        />
-                    </div>
-                </div>
-
-                <div class="footer__separator"></div>
-
-                <div class="footer__ending">@2020 Josh Technology Group</div>
-            </footer>
+            <li>
+              <button class="btn btn--primary">Subscribe</button>
+            </li>
+          </ul>
         </div>
-    </body>
+      </nav>
+
+      <!-- Main Part -->
+      <main class="main">
+        <div class="blog-box">
+          <div class="blog-box__heading">
+            <h1>Latest Blogs</h1>
+            <button class="btn btn--secondary">View All</button>
+          </div>
+
+          <div class="blog-box__container">
+            <div class="blog-box__item">
+              <img
+                src="/assets/2123.png"
+                alt="blog picture"
+                class="blog-box__image"
+              />
+
+              <div class="blog-box__text">
+                <h2>Visiting my best friend's city for first time</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, diam
+                  nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam , sed diam voluptua.
+                </p>
+                <button class="btn btn--primary">View</button>
+              </div>
+
+              <div class="blog-box__separator"></div>
+
+              <div class="blog-box__comment text-gray-small">
+                <p># Season 1</p>
+                <p># Posted on Sep 3, 2020</p>
+                <p># audio / goodbyes / life</p>
+              </div>
+            </div>
+
+            <div class="blog-box__item">
+              <img
+                src="/assets/hello-revival-YH_Ne4R9ZAc-unsplash.png"
+                alt="blog picture"
+                class="blog-box__image"
+              />
+
+              <div class="blog-box__text">
+                <h2>An interesting read I definitely recommend</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, diam
+                  nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam , sed diam voluptua.
+                </p>
+                <button class="btn btn--primary">View</button>
+              </div>
+
+              <div class="blog-box__separator"></div>
+
+              <div class="blog-box__comment text-gray-small">
+                <p># Season 1</p>
+                <p># Posted on July 29, 2020</p>
+                <p># goodbyes / life</p>
+              </div>
+            </div>
+
+            <div class="blog-box__item">
+              <img
+                src="/assets/alexander-tsang-_frvdyMH6S0-unsplash.png"
+                alt="blog picture"
+                class="blog-box__image"
+              />
+
+              <div class="blog-box__text">
+                <h2>What if all my adventures go back home?</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, diam
+                  nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam , sed diam voluptua.
+                </p>
+                <button class="btn btn--primary">View</button>
+              </div>
+
+              <div class="blog-box__separator"></div>
+
+              <div class="blog-box__comment text-gray-small">
+                <p># Season 1</p>
+                <p># Posted on Sep 11, 2020</p>
+                <p># audio / goodbyes</p>
+              </div>
+            </div>
+          </div>
+          <div class="blog-box__btn-container">
+            <button class="btn btn--secondary blog-box__btn">
+              Show More Episode
+            </button>
+          </div>
+        </div>
+
+        <!-- Blog Post Section -->
+
+        <div class="blog-post-box">
+          <h1 class="blog-post-box__heading">Blog Posts</h1>
+
+          <div class="blog-post-box__container">
+            <div class="post-item">
+              <div class="post-item__header">
+                <p>
+                  <span class="post-item__author">By Mehedi Hasan</span>
+                  <span class="post-item__date text-gray-small"
+                    >Sep 11, 2020</span
+                  >
+                </p>
+                <p class="post-item__subheader text-gray-small">
+                  Cantonese Radio
+                </p>
+              </div>
+
+              <div class="post-item__content">
+                <h2>
+                  Global News Podcast Thai soldier kills many people <br />
+                  a shooting rampage
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore
+                  .......... aliquyam, sed diam voluptua.
+                </p>
+                <button class="btn btn--secondary">Read More</button>
+              </div>
+            </div>
+
+            <div class="post-item">
+              <div class="post-item__header">
+                <p>
+                  <span class="post-item__author">By Mehedi Hasan</span>
+                  <span class="post-item__date text-gray-small"
+                    >Sep 11, 2020</span
+                  >
+                </p>
+                <p class="post-item__subheader text-gray-small">
+                  Cantonese Radio
+                </p>
+              </div>
+
+              <div class="post-item__content">
+                <h2>
+                  News hour - World Health Organization says a new coronavirus
+                  cases
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore
+                  .......... aliquyam, sed diam voluptua.
+                </p>
+                <button class="btn btn--secondary">Read More</button>
+              </div>
+            </div>
+
+            <div class="post-item">
+              <div class="post-item__header">
+                <p>
+                  <span class="post-item__author">By Mehedi Hasan</span>
+                  <span class="post-item__date text-gray-small"
+                    >Sep 11, 2020</span
+                  >
+                </p>
+                <p class="post-item__subheader text-gray-small">
+                  Cantonese Radio
+                </p>
+              </div>
+
+              <div class="post-item__content">
+                <h2>
+                  Over to You - Programme face the axe, substantial financial
+                  cutbacks
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore
+                  .......... aliquyam, sed diam voluptua.
+                </p>
+                <button class="btn btn--secondary">Read More</button>
+              </div>
+            </div>
+
+            <div class="post-item">
+              <div class="post-item__header">
+                <p>
+                  <span class="post-item__author">By Mehedi Hasan</span>
+                  <span class="post-item__date text-gray-small"
+                    >Sep 11, 2020</span
+                  >
+                </p>
+                <p class="post-item__subheader text-gray-small">
+                  Cantonese Radio
+                </p>
+              </div>
+
+              <div class="post-item__content">
+                <h2>
+                  Global News Podcast Thai soldier kills many people <br />
+                  a shooting rampage
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore
+                  .......... aliquyam, sed diam voluptua.
+                </p>
+                <button class="btn btn--secondary">Read More</button>
+              </div>
+            </div>
+
+            <div class="post-item">
+              <div class="post-item__header">
+                <p>
+                  <span class="post-item__author">By Mehedi Hasan</span>
+                  <span class="post-item__date text-gray-small"
+                    >Sep 11, 2020</span
+                  >
+                </p>
+                <p class="post-item__subheader text-gray-small">
+                  Cantonese Radio
+                </p>
+              </div>
+
+              <div class="post-item__content">
+                <h2>
+                  News hour - World Health Organization says a new coronavirus
+                  cases
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore
+                  .......... aliquyam, sed diam voluptua.
+                </p>
+                <button class="btn btn--secondary">Read More</button>
+              </div>
+            </div>
+
+            <div class="post-item">
+              <div class="post-item__header">
+                <p>
+                  <span class="post-item__author">By Mehedi Hasan</span>
+                  <span class="post-item__date text-gray-small"
+                    >Sep 11, 2020</span
+                  >
+                </p>
+                <p class="post-item__subheader text-gray-small">
+                  Cantonese Radio
+                </p>
+              </div>
+
+              <div class="post-item__content">
+                <h2>
+                  Over to You - Programme face the axe, substantial financial
+                  cutbacks
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore
+                  .......... aliquyam, sed diam voluptua.
+                </p>
+                <button class="btn btn--secondary">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-post-box__navigation">
+            <img src="./assets/arrow-left.png" alt="Left Arrow" id="prev" />
+            <img src="./assets/arrow-right.png" alt="Right Arrow" id="next" />
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer Part -->
+      <footer class="footer">
+        <div class="footer__main">
+          <div class="footer__main__first">
+            <div class="footer__logo">
+              <img src="/assets/Path 9408@2x.png" alt="Logo Image" />
+              <img src="/assets/JTGPOD@2x.png" alt="Logo Image" />
+            </div>
+
+            <p class="footer__main__first__text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt.
+            </p>
+
+            <p class="footer__socials-title">Socials</p>
+
+            <div class="footer__socials-container">
+              <div class="footer__social">
+                <img src="/assets/facebook.png" alt="Facebook" />
+              </div>
+
+              <div class="footer__social">
+                <img src="/assets/linkedin.png" alt="LinkedIn" />
+              </div>
+
+              <div class="footer__social">
+                <img src="/assets/instagram.png" alt="Instagram" />
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__pages">
+            <p>Pages</p>
+            <ul>
+              <li><a href="#" class="footer__link">About</a></li>
+              <li>
+                <a href="#" class="footer__link">Episode</a>
+              </li>
+              <li><a href="#" class="footer__link">Blog</a></li>
+              <li>
+                <a href="#" class="footer__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__recent">
+            <p>Recent Blogs</p>
+            <ul>
+              <li><a href="#" class="footer__link">Blog 1</a></li>
+              <li><a href="#" class="footer__link">Blog 2</a></li>
+              <li><a href="#" class="footer__link">Blog 3</a></li>
+              <li><a href="#" class="footer__link">Blog 4</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__partners">
+            <p>Partners</p>
+            <img
+              src="/assets/google_podcast@2x.png"
+              alt="Google Podcast"
+              class="footer__partner-logo"
+            />
+            <img
+              src="/assets/apple_podcast@2x.png"
+              alt="Apple Podcast"
+              class="footer__partner-logo"
+            />
+            <img
+              src="/assets/spotify@2x.png"
+              alt="Spotify"
+              class="footer__partner-logo spotify"
+            />
+          </div>
+        </div>
+
+        <div class="footer__separator"></div>
+
+        <div class="footer__ending text-gray-small">
+          @2020 Josh Technology Group
+        </div>
+      </footer>
+    </div>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
 </html>
