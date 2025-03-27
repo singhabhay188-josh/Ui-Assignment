@@ -1,4 +1,4 @@
-const container = document.querySelector(".blog-post-box__container");
+const container = document.getElementById("blogPostContainer");
 
 const prevButton = document.getElementById("prev");
 const nextButton = document.getElementById("next");

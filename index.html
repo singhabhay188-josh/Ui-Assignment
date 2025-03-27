@@ -131,7 +131,7 @@
         <div class="blog-post-box">
           <h1 class="blog-post-box__heading">Blog Posts</h1>
 
-          <div class="blog-post-box__container">
+          <div class="blog-post-box__container" id="blogPostContainer">
             <div class="post-item">
               <div class="post-item__header">
                 <p>
@@ -296,22 +296,21 @@
           </div>
 
           <div class="blog-post-box__navigation">
-            <img src="./assets/arrow-left.png" alt="Left Arrow" id="prev" />
-            <img src="./assets/arrow-right.png" alt="Right Arrow" id="next" />
+            <img src="./assets/arrow-left.png" alt="Previous Posts Arrow" class="blog-post-box__navigation-arrow" id="prev"/>
+            <img src="./assets/arrow-right.png" alt="Next Posts Arrow" class="blog-post-box__navigation-arrow" id="next"/>
           </div>
         </div>
       </main>
 
-      <!-- Footer Part -->
       <footer class="footer">
         <div class="footer__main">
-          <div class="footer__main__first">
+          <div class="footer__main-first">
             <div class="footer__logo">
-              <img src="/assets/Path 9408@2x.png" alt="Logo Image" />
-              <img src="/assets/JTGPOD@2x.png" alt="Logo Image" />
+              <img src="/assets/Path 9408@2x.png" alt="JTGPOD Logo Part 1" />
+              <img src="/assets/JTGPOD@2x.png" alt="JTGPOD Logo Part 2" />
             </div>
 
-            <p class="footer__main__first__text">
+            <p class="footer__main-first-text">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt.
             </p>
@@ -384,12 +383,5 @@
         </div>
       </footer>
     </div>
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>

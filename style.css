@@ -259,11 +259,7 @@ ul {
   gap: 1.7rem;
 }
 
-#prev {
-  cursor: pointer;
-}
-
-#next {
+.blog-post-box__navigation-arrow {
   cursor: pointer;
 }
 
@@ -282,14 +278,14 @@ footer {
   justify-content: space-between;
 }
 
-.footer__main__first {
+.footer__main-first {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
   max-width: 32%;
 }
 
-.footer__main__first__text {
+.footer__main-first-text {
   font-size: 0.87rem;
   line-height: 1.5rem;
 }
@@ -354,7 +350,7 @@ footer {
   width: 110px;
 }
 
-.footer__main ul li a {
+.footer__link {
   font-size: 0.9rem;
   color: #d0d0d0;
 }
@@ -423,7 +419,7 @@ footer {
     flex-wrap: wrap;
   }
 
-  .footer__main__first {
+  .footer__main-first {
     flex: 0 0 100%;
     max-width: 100%;
     align-items: center;
