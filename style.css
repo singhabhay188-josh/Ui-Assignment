@@ -371,12 +371,6 @@ footer {
   text-align: center;
 }
 
-
-
-
-
-
-
 /* Media QueRies */
 @media (max-width: 1210px) {
   .nav__container {
@@ -390,8 +384,8 @@ footer {
   }
 
   .main {
-    padding-left: 2rem ;
-    padding-right: 2rem ;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .blog-box {
@@ -429,7 +423,7 @@ footer {
     flex-wrap: wrap;
   }
 
-  .footer__main__first{
+  .footer__main__first {
     flex: 0 0 100%;
     max-width: 100%;
     align-items: center;
@@ -443,7 +437,6 @@ footer {
     padding: 0;
   }
 }
-
 
 @media (max-width: 768px) {
   .nav {
@@ -503,7 +496,7 @@ footer {
     align-items: center;
   }
 
-  .footer__partners img{
+  .footer__partners img {
     max-width: 250px;
   }
 
@@ -512,7 +505,6 @@ footer {
     margin-bottom: 2rem;
   }
 }
-
 
 @media (max-width: 500px) {
   .nav {
