@@ -46,14 +46,15 @@ ul {
   background-color: white;
 }
 
-.text-gray-small {
+.p--tertiary {
   font-size: 0.9rem;
   color: #d0d0d0;
 }
 
-p--gray-small {
-  font-size: 0.9rem;
+.p--secondary {
   color: #d0d0d0;
+  font-size: 0.93rem;
+  line-height: 1.4rem;
 }
 
 /* Nav Bar */
@@ -127,19 +128,14 @@ p--gray-small {
   gap: 1.1rem;
 }
 
-.blog-box__text button {
+.btn--tertiary {
   width: max-content;
   margin-left: auto;
   padding: 0.9rem 2.7rem;
   transform: translateY(-0.2rem) translateX(-0.1rem);
 }
 
-.blog-box__text p {
-  font-size: 0.93rem;
-  line-height: 1.4rem;
-}
-
-p--blog-box {
+.p--blog-box {
   font-size: 0.93rem;
   line-height: 1.4rem;
 }
@@ -184,7 +180,7 @@ p--blog-box {
   padding: 1.75rem 0;
 }
 
-.blog-post-box__heading {
+.h2--heading {
   text-align: center;
   font-size: 2rem;
   padding-bottom: 2rem;
@@ -246,7 +242,7 @@ p--blog-box {
   line-height: 1.9rem;
 }
 
-.post-item__content p {
+.p--smaller {
   padding-left: 0.3rem;
   padding-right: 0.4rem;
   line-height: 1.3rem;
@@ -257,18 +253,7 @@ p--blog-box {
   overflow: hidden;
 }
 
-p--post-item-content {
-  padding-left: 0.3rem;
-  padding-right: 0.4rem;
-  line-height: 1.3rem;
-  font-size: 0.95rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.post-item__content button {
+.btn-translate-y {
   width: max-content;
   transform: translateY(-0.5rem);
   padding: 0.8rem 1.7rem;
@@ -344,11 +329,7 @@ footer {
   transform: translate(-0.7rem);
 }
 
-.footer__recent p {
-  word-wrap: normal;
-}
-
-p--footer-recent {
+.p--footer-recent {
   word-wrap: normal;
 }
 
@@ -368,11 +349,7 @@ p--footer-recent {
   justify-content: start;
 }
 
-.footer__partners p {
-  margin-bottom: 1rem;
-}
-
-p--footer-partners {
+.p--quaternary {
   margin-bottom: 1rem;
 }
 
@@ -414,7 +391,7 @@ p--footer-partners {
     padding-right: 2rem;
   }
 
-  .blog-box {
+  .p--padding-two {
     padding: 2rem 2rem;
   }
 
@@ -497,7 +474,7 @@ p--footer-partners {
     display: none;
   }
 
-  .blog-box__text {
+  .btn--tertiary {
     max-width: 100%;
   }
 
@@ -549,7 +526,7 @@ p--footer-partners {
     padding-bottom: 0;
   }
 
-  .blog-box__heading button {
+  .btn-padding-x-y {
     padding: 0.7rem 1.4rem;
     transform: translate(0);
     margin: auto;
